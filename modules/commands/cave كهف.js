@@ -39,15 +39,15 @@ module.exports.handleReply = async ({
     const { threadID, messageID, senderID } = e;
     let data = (await Currencies.getData(senderID)).data || {};
 if (handleReply.author != e.senderID) 
-return api.sendMessage("- اكعد راحة هذا مو شغلك!", e.threadID, e.messageID)
+return api.sendMessage("لا تسرق عمل الآخرين 😏، اعمل بنفسك", e.threadID, e.messageID)
 
-var a = Math.floor(Math.random() * 5000) + 900; 
-var b = Math.floor(Math.random() * 5000) + 800; 
-var c = Math.floor(Math.random() * 5000) + 700; 
-var x = Math.floor(Math.random() * 5000) + 600; 
-var y = Math.floor(Math.random() * 5000) + 500; 
-var f = Math.floor(Math.random() * 5000) + 400; 
-var g = Math.floor(Math.random() * 4) + 1; 
+var a = Math.floor(Math.random() * 6000) + 000; 
+var b = Math.floor(Math.random() * 5000) + 100; 
+var c = Math.floor(Math.random() * 4000) + 200; 
+var x = Math.floor(Math.random() * 3000) + 300; 
+var y = Math.floor(Math.random() * 2000) + 400; 
+var f = Math.floor(Math.random() * 1000) + 500; 
+var g = Math.floor(Math.random() * 1) + 1; 
   
   var msg = "";
     switch(handleReply.type) {
@@ -75,7 +75,7 @@ var g = Math.floor(Math.random() * 4) + 1;
                 break;
                 case "6": msg = `اشتغلت بالكهوف بدوله كمبوديا وحصلت ${f}$`; 
                 await Currencies.increaseMoney(e.senderID, parseInt(f)); 
-                break; case "7": msg = `اشتغلت بالكهوف بدوله الجزائر وحصلت  ${g}$`;
+                break; case "7": msg = `من قال أن الجزائر فيها شغل 🤔، خذلك كم دولار وروح شوفلك بلد ثاني  ${g}$`;
                 await Currencies.increaseMoney(e.senderID, parseInt(g)); 
                 break;             
                 default: break;
