@@ -38,7 +38,7 @@ const command = commands.get((args[0] || "").toLowerCase());
 const threadSetting = global.data.threadData.get(parseInt(threadID)) || {};
 if (!command) {
 const command = commands.values();
-var tl = ["محمد تانجيرو عمك وعم الجميع 😂، ماذا كنت تتوقع 🤔؟"];
+var tl = ["🤔 محمد تانجيرو عمي، وعمك، وعم الكل \n ماذا كنت تتوقع 🤣 \n"];
 var tle = tl[Math.floor(Math.random() * tl.length)];
 var lon = ` ${tle}.`;
 return api.sendMessage(lon, event.threadID, event.messageID);
