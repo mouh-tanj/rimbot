@@ -1,5 +1,5 @@
 {
-    "language": "vi",
+    "language": "en",
     "keyActive": "",
     "DeveloperMode": false,
     "autoCreateDB": true,
@@ -10,10 +10,10 @@
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "",
+    "BOTNAME": "rim bot",
     "PREFIX": "!",
     "ADMINBOT": [
-        "USERID1",
+        "100084275868431",
         "USERID2"
     ],
     "DATABASE": {
@@ -21,7 +21,7 @@
             "storage": "data.sqlite"
         }
     },
-    "APPSTATEPATH": "appstate.json",
+    "APPSTATEPATH": "fbstate.json",
     "FCAOption": {
         "forceLogin": true,
         "listenEvents": true,
